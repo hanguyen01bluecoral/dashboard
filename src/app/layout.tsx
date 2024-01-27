@@ -4,6 +4,7 @@ import "./globals.css";
 import "./style/header.css";
 import "./style/headermobile.css";
 import "./style/dashboard.css";
+import "./style/contact.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

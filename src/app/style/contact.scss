@@ -1,0 +1,12 @@
+.menu-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 670px){
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .select {
+
+    }
+}

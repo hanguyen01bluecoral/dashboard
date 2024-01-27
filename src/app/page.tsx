@@ -123,9 +123,9 @@ export default function Home() {
                     </li>
                     {isDropdownOpen && (
                       <div className="dropdown w-[370px]">
-                        <a className="text-[18px] ml-[50px] p-3 block" href="#">Alert Dialog</a>
-                        <a className="text-[18px] mt-[10px] p-3 ml-[50px] block" href="#">Hover card</a>
-                        <a className="text-[18px] mt-[10px] p-3 pb-0 ml-[50px] block" href="#">Progress</a>
+                        <a className="text-[18px]  p-3 pl-[50px] block  border-b hover:bg-[#ebedf0]" href="#">Alert Dialog</a>
+                        <a className="text-[18px] mt-[10px] p-3 pl-[50px] block  border-b hover:bg-[#ebedf0]" href="#">Hover card</a>
+                        <a className="text-[18px] mt-[10px] p-3 pl-[50px] pb-2  block  border-b hover:bg-[#ebedf0]" href="#">Progress</a>
                       </div>
                     )}
                   </ul>
@@ -143,9 +143,9 @@ export default function Home() {
                     </li>
                     {isDropdownOpen1 && (
                       <div className="dropdown w-[370px]">
-                        <a className="text-[18px] ml-[50px] p-3 block" href="#">Alert Dialog</a>
-                        <a className="text-[18px] mt-[10px] p-3 ml-[50px] block" href="#">Hover card</a>
-                        <a className="text-[18px] mt-[10px] p-3 pb-0 ml-[50px] block" href="#">Progress</a>
+                        <a className="text-[18px]  p-3 pl-[50px] block  border-b hover:bg-[#ebedf0]" href="#">Alert Dialog</a>
+                        <a className="text-[18px] mt-[10px] p-3 pl-[50px] block  border-b hover:bg-[#ebedf0]" href="#">Hover card</a>
+                        <a className="text-[18px] mt-[10px] p-3 pl-[50px] pb-2  block  border-b hover:bg-[#ebedf0]" href="#">Progress</a>
                       </div>
                     )}
                   </ul>
