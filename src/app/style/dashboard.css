@@ -1,0 +1,192 @@
+main {
+  width: 100%;
+}
+main .dashboard-card {
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 670px) {
+  main .dashboard-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+main .dashboard-card .dashboard_left {
+  width: 73%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 670px) {
+  main .dashboard-card .dashboard_left {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+main .dashboard-card .dashboard_left .card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+main .dashboard-card .dashboard_left .card .card-content {
+  width: calc(33.33333% - 10px);
+  border: 1.3px solid #e5e4e6;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 25px 30px;
+  transition: all 0.3s;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+@media (max-width: 670px) {
+  main .dashboard-card .dashboard_left .card .card-content {
+    width: 350px;
+    margin-left: 10px;
+  }
+}
+main .dashboard-card .dashboard_left .card .card-content .card_header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+main .dashboard-card .dashboard_left .card .card-content .card_title {
+  font-size: 15px;
+  color: #2f2926;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+main .dashboard-card .dashboard_left .card .card-content:hover {
+  border-color: #8154ce;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.05);
+}
+main .dashboard-card .dashboard_left .Subscribers {
+  width: 100%;
+  height: 550px;
+  margin-top: 30px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+main .dashboard-card .dashboard_left .Subscribers .Subscribers_menu {
+  width: 100%;
+  height: 66px;
+  border-bottom: 1px solid #d2d1d3;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 670px) {
+  main .dashboard-card .dashboard_left .Subscribers .Subscribers_menu {
+    flex-wrap: wrap;
+    height: 120px;
+  }
+}
+main .dashboard-card .dashboard_left .Subscribers .Subscribers_menu .date {
+  margin-top: 15px;
+  display: flex;
+}
+main .dashboard-card .dashboard_left .Subscribers .chart .chart_button {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+main .dashboard-card .dashboard_left .Subscribers .chart .chart_item {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+main .dashboard-card .dashboard_right {
+  width: 25%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+@media (max-width: 670px) {
+  main .dashboard-card .dashboard_right {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+}
+main .dashboard-card .dashboard_right .getting .ddget {
+  border-bottom: 1px solid #e3e8ee;
+  font-weight: 700;
+}
+main .dashboard-card .dashboard_right .getting .list {
+  background-color: #fff;
+}
+main .dashboard-card .dashboard_right .getting .list .dd {
+  background-color: #fff;
+  border-bottom: 1px solid #e3e8ee;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #3c434a;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+main .dashboard-card .dashboard_right .getting .list .dd .dd2 {
+  border: 1px solid rgb(194, 190, 190);
+}
+main .dashboard-card .dashboard_right .getting .list .dd:hover {
+  border-color: #8154ce;
+  color: #8154ce;
+}
+main .dashboard-card .dashboard_right .getting .gioithieu {
+  margin-top: 20px;
+}
+main .dashboard-card .dashboard_right .getting .gioithieu .gt_head {
+  padding: 15px 0px;
+  background-color: #7d40e8;
+  color: #fff;
+  padding-left: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+main .dashboard-card .dashboard_right .getting .quick {
+  margin-top: 20px;
+}
+main .dashboard-card .dashboard_right .getting .quick .quick_head {
+  padding: 15px 30px;
+  background-color: #f7fafc;
+  color: black;
+  font-weight: 600;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom: 1px solid #e3e8ee;
+}
+
+.dddate {
+  width: 350px;
+}
+@media (max-width: 670px) {
+  .dddate {
+    width: 250px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .dddate {
+    width: 250px;
+    margin-left: 10px;
+  }
+}
+
+.gt_head1 {
+  padding: 15px 0px;
+  background-color: #f7fafc;
+  color: black;
+  border-bottom: 1px solid #e3e8ee;
+  padding-left: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/*# sourceMappingURL=dashboard.css.map */
