@@ -16,7 +16,6 @@ import {
 } from "@/components/ui/navigation-menu"
 import NavigationMenuDemo from "./header/page";
 import { ChevronDown, LucideChevronDown } from "lucide-react";
-import NavigationMenuDemo1 from "./header1/page";
 
 export default function Home() {
 
