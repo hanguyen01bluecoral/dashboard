@@ -89,7 +89,7 @@ export default function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="#" legacyBehavior passHref>
+          <Link href="/contacts" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Forms
             </NavigationMenuLink>
@@ -116,6 +116,13 @@ export default function NavigationMenuDemo() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+        <NavigationMenuItem>
+                  <Link href="#" legacyBehavior passHref>
+                    <NavigationMenuLink className=" text-white h-[56px] bg-[#7757e6] px-[20px] py-[18px] font-bold">
+                      Get Pro
+                    </NavigationMenuLink>
+                  </Link>
+              </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );
