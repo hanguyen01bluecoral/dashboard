@@ -63,7 +63,7 @@ export default function NavigationMenuDemo1() {
             </defs>
           </svg>
         </div>
-        <TabsList className="mr-4">
+        <TabsList className="">
           {/* <TabsTrigger value="account">Dashboed</TabsTrigger> */}
           <NavigationMenu className="w-full h-[56px]  bg-white">
             <NavigationMenuList>
@@ -158,7 +158,7 @@ export default function NavigationMenuDemo1() {
               <NavigationMenuItem>
                 <TabsTrigger value="g">
                   <Link href="#" legacyBehavior passHref>
-                    <NavigationMenuLink className=" text-white h-[56px] bg-[#7757e6] p-4 font-bold">
+                    <NavigationMenuLink className=" text-white h-[56px] bg-[#7757e6] px-[20px] py-[18px] font-bold">
                       Get Pro
                     </NavigationMenuLink>
                   </Link>
